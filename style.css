@@ -1,0 +1,86 @@
+h3 {
+        color: pink;
+    }
+    
+    #greycol {
+        color: grey;
+    }
+    
+    div > p {
+        color: red;
+    }
+    
+    p:nth-of-type(3) {
+        color: green;
+    }
+    
+    p.yellow {
+        color: yellow;
+    }
+    .schedule ul {
+        padding: 10px;
+        list-style-type: none;
+      }
+      
+      .monday li {
+        color: blue;
+      }
+      
+      .tuesday li {
+        color: green;
+      }
+      
+      .wednesday li {
+        color: red;
+      }
+      
+      .thursday li {
+        color: purple;
+      }
+      
+      .friday li {
+        color: orange;
+      }
+      
+      
+      .schooldays ul:first-of-type li {
+        font-weight: bold; 
+      }
+      
+      .schedule ul:nth-of-type(2n) li {
+        background-color: lightyellow; 
+      }
+      
+      .schedule ul:last-of-type li {
+        text-transform: uppercase; 
+      }
+      
+      .schedule ul:nth-child(3) li {
+        font-style: italic; }
+      
+      .schedule ul li:first-child {
+        border-bottom: 2px solid black; 
+      }
+      
+      
+      .schedule ul li:hover {
+        color: darkblue; 
+      }
+      
+      .schedule ul li:active {
+        color: white;
+        background-color: darkred; 
+      }
+      
+      .schedule ul li:nth-child(even):hover {
+        text-decoration: underline; 
+      }
+      
+      .schedule ul li:focus {
+        outline: 2px solid yellow;
+      }
+      
+      .schedule ul li:nth-child(odd):active {
+        background-color: darkgreen; 
+      }
+      
